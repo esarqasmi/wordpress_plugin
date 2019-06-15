@@ -9,6 +9,4 @@
   margin: 0 15px;
   width:50px;
 }
- .contributor li .author-name {
-  float: left; text-decoration:underline;
-}
+ .contributor li .author-name {  float: left; text-decoration:underline;}

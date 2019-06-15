@@ -1,8 +1,7 @@
 <?php 
 function pc_add_meta_box() {
 	add_meta_box('pc_meta_box','Contributors','pc_render_meta_box','post','side','core');
-}
-
+} 
 // Render Meta Box
 function pc_render_meta_box( $post ) {
 	wp_nonce_field( 'pc_inner_custom_box', 'pc_inner_custom_box_nonce' );

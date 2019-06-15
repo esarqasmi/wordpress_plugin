@@ -1,5 +1,4 @@
 <?php 
-
 // Save values of meta box
 function pc_save( $post_id ) {
 

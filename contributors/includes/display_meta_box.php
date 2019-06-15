@@ -1,7 +1,6 @@
 <?php 
 // Display Post Contributors
-function pc_display( $content ) {
-	
+function pc_display( $content ) { 
 	global $post; $html = '';
 	$html .= "<div class='wrapper-container'> <h4>Contributors</h4>";
 	$contributors = get_post_meta( $post->ID, '_wp_contributor', true );
