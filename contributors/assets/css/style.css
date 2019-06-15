@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+ .contributor li {
+    list-style: outside none none; 
+    margin-top: 5em;
+}
+ .contributor li .avatar  {
+  float: left;
+  margin: 0 15px;
+  width:50px;
+}
+ .contributor li .author-name {
+  float: left; text-decoration:underline;
+}
