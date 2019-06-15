@@ -32,5 +32,6 @@ Password : admin
 
 ---Wordpress Default Settings---
 
+- Third party plugin Custom Post Type UI Creator is added just to add a new post type : Reference https://wordpress.org/plugins/custom-post-type-ui/
 - Users - Add Users / contributors from User menu from Wordpress admin menu
 - Post & Pages- Add Post and pages from Post & Pages menu from admin menu respectively.
