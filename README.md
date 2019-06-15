@@ -29,3 +29,8 @@ Password : admin
 
 - Simply go to add or edit post page and the contributors list will apear just aside of your post body. Just check the authors who have contibuted and publish or update the post.
 - Contributor list will be display below the post content.
+
+---Wordpress Default Settings---
+
+- Users - Add Users / contributors from User menu from Wordpress admin menu
+- Post & Pages- Add Post and pages from Post & Pages menu from admin menu respectively.
