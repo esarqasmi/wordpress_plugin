@@ -6,8 +6,7 @@
 }
 .lp_sidebar tr{border-bottom:1px solid #e2e2e2;}
 .lp_sidebar tr:last-child { border-bottom: none; }
-.lp_postsbar{
-	
+.lp_postsbar{	
     float: left;
     width: 59%;
 	}
