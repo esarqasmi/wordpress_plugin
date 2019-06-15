@@ -1,8 +1,10 @@
 <?php
 /* Plugin Name:  Contributors
+ * Plugin URI: https://github.com/esarqasmi/contributors
  * Description:  This plugin will add WordPress metabox functionality. Goal is to create a plugin so that we can display more than one author-name on a post.
  * Version:      1.0
  * Author:       Esar ul haq Qasmi 
+ * Author URI: https://github.com/esarqasmi/
  * Requires at least: wp 4.0
  * @author Esar ul haq Qasmi
 */
