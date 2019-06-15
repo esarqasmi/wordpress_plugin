@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: List Custom Posts
-Plugin URI: https://github.com/esarqasmi/wordpress_plugin
+Plugin Name: Simple Alert Plugin
+Plugin URI: https://github.com/esarqasmi/wordpress_plugin/listposts
 description: A plugin to List down all selected posts with custom alert message box
 Version: 1.0
 Author: Esar ul haq Qasmi
-Author URI: https://github.com/esarqasmi/wordpress_plugin
+Author URI: https://github.com/esarqasmi
 License: GPL2
 */ 
 global $wpdb; 
@@ -32,16 +32,7 @@ function listposts_scripts()
     ), '1.0.0', true);
 }
 
-add_action('wp_enqueue_scripts', 'listposts_scripts');
-
-
-
-/* Runs when plugin is activated */
-register_activation_hook(__FILE__, 'listposts_plugin_install');
-/* Runs on plugin deactivation*/
-register_deactivation_hook(__FILE__, 'listposts_plugin_remove');
-
-
+add_action('wp_enqueue_scripts', 'listposts_scripts'); 
 
 /**
 
@@ -76,10 +67,7 @@ include "includes/List_Table.php";
 include "includes/lists_page.php";
 include "includes/fetch_posts.php";
 include "includes/add_message.php";
-include "includes/activation.php";
 
 add_action('admin_post_nopriv_fetch_posts', 'listposts_fetch_posts');
-add_action('admin_post_fetch_posts', 'listposts_fetch_posts');
-
-
+add_action('admin_post_fetch_posts', 'listposts_fetch_posts');  
 add_action('admin_post_update_action', 'admin_update_action');
